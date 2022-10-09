@@ -2,7 +2,8 @@
 do
 
 	folderName=`echo $files | awk -F. '{print $1}'`;
-	echo $files;
+	
+      echo $files;
 	echo $folderName;
 	
 	mkdir $folderName;
